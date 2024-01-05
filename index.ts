@@ -21,7 +21,7 @@ app.use("/api/auth", authRouter);
 app.use("/api/notes", notesRouter);
 app.use("/api/search", searchRouter);
 
-const PORT = 5173;
+const PORT = 8000;
 app.listen(PORT, () => {
   console.log(`Server is running on PORT ${PORT}`);
 });
